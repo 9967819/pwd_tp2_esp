@@ -1,0 +1,13 @@
+Getting started: 
+
+1. Install database ./pwd_er_esp.sql
+2. Edit config.local.php as needed.
+3. Copy the contents of this folder inside your document root (ie: /pwd_er_esp/) .
+4. Start web server.
+5. Visit /pwd_er_esp/index.php in your web browser. 
+
+Prerequirements: 
+* PDO extension for MySQL/MariaDB. 
+* PHP 7.4.x or better.
+
+Tested with nginx, PHP 7.4 and php-fpm. 

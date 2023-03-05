@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Test form</title>
+<body>
+
+{header}
+
+<main id=content>
+<form action="." method="POST">
+	<input type=hidden name="callback" value="{callback}">
+	<p><label>Titre de la tâche:</label>
+	<input name="title" value="{title}" placeholder="{title}" required></p>
+
+	<p><label>Description (optionel):</label>
+	<input name="description" value="{description}" placeholder="{description}">
+	</p>
+	<textarea name="full_text" value="{full_text}" placeholder="{full_text}" required></textarea>
+	<p><label for="pub_date">Date d'écheance</label>
+	<input name="pub_date" value="{pub_date}"></p>
+	<p><label for="category_id">Catégorie:</label>
+	<select name="category_id">
+	<option value="" selected disabled hidden>--</option>
+ 	{categories}
+	</select></p>
+	<p>
+	 <input type="submit" value="Click here">
+	</p>
+</form>
+</main>
+{footer}
+</body>
+</html>

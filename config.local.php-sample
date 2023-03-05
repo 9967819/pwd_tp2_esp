@@ -1,0 +1,6 @@
+$db_user = 'yourusername;
+$db_name = 'yourdatabasename';
+$db_host = 'localhost';
+
+include __DIR__ . '/config.php';
+

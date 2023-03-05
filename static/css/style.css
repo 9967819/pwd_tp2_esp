@@ -1,0 +1,26 @@
+html {
+      box-sizing: border-box;
+      font-family: 'Roboto', 'Open Sans', sans-serif;
+      font-size: 16px;
+}
+
+body, main {
+      background-color: #fff;
+      color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	min-height: 30px;
+}
+
+#data-todo-list a {
+	text-decoration: none;
+}
+#data-todo-list li:nth-child(odd) {      
+      /*background-color: white;*/      
+      background-color: #ccc;
+}

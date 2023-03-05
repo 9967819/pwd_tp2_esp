@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>DELETE VIEW</title>
+<body>
+
+{header}
+
+<main id=content>
+	<h3>{title}</h3>
+	<p>Click on <strong>Delete article</strong> to remove this item...</p>
+
+	<form action="." method=POST>
+	<input type="submit" value="Delete article">
+	<input type="hidden" value="{callback}" name="callback">
+	<input type="hidden" value="{pk}" name="id">
+	</form>
+</main>
+{footer}
+</body>
+</html>
